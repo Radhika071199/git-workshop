@@ -9,7 +9,7 @@ var daylist = [
   "Friday",
   "Saturday",
 ];
-console.log("Today is : " + daylist[day] + ".");
+console.log("Today is :" + daylist[day] + ".");
 var hour = today.getHours();
 var minute = today.getMinutes();
 var second = today.getSeconds();
@@ -27,7 +27,7 @@ if (hour === 0 && prepand === " PM ") {
 if (hour === 0 && prepand === " AM ") {
   if (minute === 0 && second === 0) {
     hour = 12;
-    prepand = " Midnight" ;
+    prepand = " MidNight" ;
   } else {
     hour = 12;
     prepand = " AM"

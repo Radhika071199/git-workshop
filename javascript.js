@@ -9,7 +9,7 @@ var daylist = [
   "Friday",
   "Saturday",
 ];
-console.log("Today is :" + daylist[day] + ".");
+console.log("Today is : " + daylist[day] + ".");
 var hour = today.getHours();
 var minute = today.getMinutes();
 var second = today.getSeconds();
@@ -35,5 +35,6 @@ if (hour === 0 && prepand === " AM ") {
   }
 }
 console.log(
-  "Current Time : " + hour + " : " + minute + " : "+ second + prepand
+  "Current Time : " + hour + " : " + minute + " : "+ second + prepand + "have a great day ...!"
+  
 );
